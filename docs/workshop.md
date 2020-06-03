@@ -2,7 +2,7 @@
 
 Lets build this smarthome appliance-control project using familiar technologies: HTML, CSS, and JavaScript !
 
-![Smarthome Screenshot](./assets/smart_home.png)
+![Smarthome Screenshot](../assets/smart_home.png)
 
 Using the knowledge we acquired in the webinar let's identify what components we will use in the project.
 
