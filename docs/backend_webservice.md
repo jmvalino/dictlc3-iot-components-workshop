@@ -6,6 +6,6 @@ Examples: REST, SOAP, GRPC, GRAPHQL
 
 [img]
 
-## Other use cases are for thing registry and user management.
+## Other use cases are for thing registry, device onboarding and user management.
 
 [img]

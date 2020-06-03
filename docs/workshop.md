@@ -1231,3 +1231,66 @@ Copy and paste this Boilerplate on index.html
 
     </body>
     </html>
+
+## WEB APP - Styling with CSS
+
+On your root project folder, create a file called style.css
+
+    touch style.css
+
+Copy and Paste this CSS Rules on style.css file
+
+    @import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
+
+    * {
+        box-sizing: border-box;
+        font-family: 'Montserrat', sans-serif;
+    }
+
+    body {
+        margin: 0;
+        padding: 0;
+        width: 100%;
+        height: 100vh;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        color: whitesmoke;
+        background-color: #434343;
+    }
+
+    .container {
+        width: 98vh;
+        height: 98vh;
+    }
+
+    .logo {
+        position: fixed;
+        left: 1em;
+        bottom: 1em;
+        width: 200px;
+    }
+
+    .logo img {
+        width: inherit;
+    }
+
+    .logs {
+        padding: 1em;
+        display: flex;
+        flex-direction: column;
+        width: 300px;
+        height: 75vh;
+        border: 2px solid grey;
+        border-radius: 1em;
+
+        overflow-y: auto;
+    }
+
+    .logs p {
+        margin: 0;
+    }
+
+## WEB APP - Script
+
+In order for us to change the state of something in our view layer, we need some sort of programming interface to communicate to the browser. JavaScript gives us the ability to interact with the various browser API like changing DOM elements at runtime.
